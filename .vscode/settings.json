@@ -1,0 +1,10 @@
+{
+    "cmake.configureOnOpen": false,
+    "cmake.sourceDirectory": "./Source",
+    "cmake.buildDirectory": "./Build",
+    "cmake.cmakePath": "C:/msys64/usr/bin/cmake.exe",
+    "cmake.generator": "Unix Makefiles",
+    "cmake.configureSettings": {
+        "CMAKE_CXX_COMPILER": "/usr/bin/make"
+    }
+}
