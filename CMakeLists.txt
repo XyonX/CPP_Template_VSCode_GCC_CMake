@@ -5,3 +5,6 @@ file(GLOB_RECURSE SOURCES "Source/src/*.cpp")
 file(GLOB_RECURSE HEADERS "Source/include/*.h")
 
 add_executable(MyAPP ${SOURCES} ${HEADERS})
+target_include_directories(MyAPP PRIVATE "Source/include")
+
+set(CMAKE_PREFIX_PATH "C:/Libraries/vcpkg/installed")
