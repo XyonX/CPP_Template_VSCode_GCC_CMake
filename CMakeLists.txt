@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 project(Project_Name)
 
+set(CMAKE_MAKE_PROGRAM "c:/msys64/usr/bin/make.exe")
+set(CMAKE_GENERATOR "Unix Makefiles")
+
 file(GLOB_RECURSE SOURCES "Source/src/*.cpp")
 file(GLOB_RECURSE HEADERS "Source/include/*.h")
 
